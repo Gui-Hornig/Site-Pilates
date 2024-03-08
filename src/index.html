@@ -1,98 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Pilates Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header" id="header"></header>
     <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-           <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
-           </li>
-           <li class="nav__item">
-              <a href="#health" class="nav__link">Saúde</a>
-           </li>
-           <li class="nav__item">
-              <a href="#routine" class="nav__link">Rotina</a>
-           </li>
-           <li class="nav__item">
-              <a href="#follow" class="nav__link">Social</a>
-           </li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#health" class="nav__link">Saúde</a>
+        </li>
+        <li class="nav__item">
+          <a href="#routine" class="nav__link">Rotina</a>
+        </li>
+        <li class="nav__item">
+          <a href="#follow" class="nav__link">Social</a>
+        </li>
+      </ul>
 
-        <!--Fechar Botões-->
-        <div class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
-         </div>
+      <!--Fechar Botões-->
+      <div class="nav__close" id="nav-close">
+        <i class="ri-close-line"></i>
+      </div>
     </div>
 
     <div class="nav__buttons">
-        <!-------- theme change button -------->
-        <i class="ri-moon-line change-theme" id="theme-button"></i>
+      <!-------- theme change button -------->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-        <!-------- toggle button -------->
-        <div class="nav__toggle" id="nav-toggle">
-           <i class="ri-apps-2-line"></i>
-        </div>
-     </div>
-</body>
+      <!-------- toggle button -------->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-apps-2-line"></i>
+      </div>
+    </div>
+  </body>
 </html>
 
-
-
 <section id="health" class="health">
-   <h2>Saúde</h2>
-   <p>Informações e dicas para manter um estilo de vida saudável.</p>
+  <h2>Saúde</h2>
+  <p>Informações e dicas para manter um estilo de vida saudável.</p>
 </section>
 
 <!-- Seção de Rotina -->
 <section id="routine" class="routine">
-   <h2>Rotina</h2>
-   <p>Organize sua rotina diária e melhore sua produtividade.</p>
+  <h2>Rotina</h2>
+  <p>Organize sua rotina diária e melhore sua produtividade.</p>
 </section>
 
 <!-- Seção Social -->
 <section id="follow" class="social">
-   <h2>Social</h2>
-   <p>Conecte-se e siga as últimas tendências nas redes sociais.</p>
+  <h2>Social</h2>
+  <p>Conecte-se e siga as últimas tendências nas redes sociais.</p>
 </section>
 
 <footer class="footer" id="footer">
-   <p>&copy; 2024
+  <p>&copy; 2024</p>
 </footer>
 
 <style>
-
-body {
-    font-family: 'Arial', sans-serif;
+  body {
+    font-family: "Arial", sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-}
+  }
 
-.nav__list {
+  .nav__list {
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
     background-color: #333;
-}
+  }
 
-.nav__link {
+  .nav__link {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-}
+  }
 
-.nav__link:hover {
+  .nav__link:hover {
     background-color: #555;
-}
+  }
+
+  section {
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
 </style>
